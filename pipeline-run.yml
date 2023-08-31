@@ -2,6 +2,7 @@ apiVersion: tekton.dev/v1beta1
 kind: PipelineRun
 metadata:
   name: sanders
+  namespace: default
 spec:
   pipelineRef:
     name: clone-build-push
