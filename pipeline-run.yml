@@ -19,7 +19,7 @@ spec:
             storage: 1Gi
   - name: docker-credentials
     secret:
-      secretName: docker-credentials
+      secretName: docker-config
   params:
   - name: repo-url
     value: https://github.com/Sand-CloudShpaers/tekton-kadaster-project.git
